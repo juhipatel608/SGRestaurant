@@ -1,0 +1,206 @@
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body{
+
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.jumbotron{
+    background: url('images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 0px !important;
+}
+
+.carousel {
+    position: inline;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    font-size: 10px;    
+  }
+
+  .container{
+    position: inline;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    width: 600px;
+    height: 200px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color:black;
+
+  }
+
+  h2{
+      color:rgb(255, 255, 255);
+      text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+  }
+
+
+
+#bootstrap-overrides h1 {
+
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: red;
+    font-size: 75px;
+    
+}
+
+
+
+.col-big{
+    position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width:20%;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  /* background-color: rgba(196, 230, 9, 0.7); */
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: #4CAF50;
+}
+
+.hovereffect img {display: block;
+  position: relative;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  margin:0px;
+}
+
+.hovereffect p.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: rgb(216, 9, 9);
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: bolder;
+  margin: 7px;
+}
+
+.hovereffect:hover p.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect p.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+
+#bootstrap-overrides form{
+  
+    width: 60%;
+    margin: 0 auto;
+    float: none;
+  
+}
+
+
+#bootstrap-overrides .formstyle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;  
+}
+
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color:  #333;
+  bottom: 0px;
+  color:red;
+
+}
